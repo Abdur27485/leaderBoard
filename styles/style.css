@@ -1,2 +1,188 @@
-/* Top players style */
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 
+/* Common Styles */
+/* .poppins-400{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.roboto-400{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+} */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 870px;
+    padding: 30px;
+    margin-bottom: 21px;
+}
+
+
+ /* Top players style */
+.section-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #562EFF;
+    margin-top: 3px;
+    margin-bottom: 40px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    border-bottom: 1px solid #D1D1D1;
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    /* margin-right: 16px; */
+}
+.player-name{
+    margin-left: 16px;
+}
+
+/* -------------
+    Top Blogs
+----------------  */
+/*
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.top-blogs .section-title{
+    margin: 30px 0px;
+}
+.blog{
+    display: flex;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+    margin-right: 16px;
+}
+.blog p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+.author-name{
+    color: #562EFF;
+}
+article h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    margin: 0px;
+} */
+
+/* Top Blogs Style */
+
+.top-blogs{
+
+}
+.top-blogs .section-title{
+    margin: 30px 0px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+.blog{
+    display: flex;
+    margin-bottom: 26px;
+}
+.thumbnail{
+
+}
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+    margin-right: 16px;
+}
+.blog-info{
+
+}
+.blog-info h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    margin: 0px;
+}
+.blog-info p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F;
+    margin: 0;
+}
+.blog-author{
+    text-decoration: none;
+    color: #562EFF;
+}
+
+
+/* Latest courses */
+
+.course{
+    width: 252px;
+    height: 270px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);;
+    padding: 10px;
+    border-radius: 5px;
+}
+.course-thumbnail{
+    display: flex;
+}
+.course-thumbnail img{
+    width: 224px;
+    height: 104px;
+    margin: 0px auto;
+}
+.course-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0336px;
+    line-height: 23px;
+    color: #1E1E1E;
+    margin-bottom: 7px;
+}
+.course-instructor{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+    margin-top: 0px;
+}
