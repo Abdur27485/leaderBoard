@@ -152,7 +152,10 @@ article h3{
 
 
 /* Latest courses */
-
+.courses{
+display: flex;
+justify-content: space-between;
+}
 .course{
     width: 30%;
     height: 270px;
